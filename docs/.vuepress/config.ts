@@ -8,7 +8,7 @@ import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
 
-const DOMAIN_NAME = 'kamalyes.com' // 域名 (不带https)
+const DOMAIN_NAME = 'yuyanqing.cn' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
@@ -45,11 +45,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: 'Vue教程',
             items: [
-              { text: '基础', link: '/pages/117158caa9e96df0/' },
+              { text: '基础', link: '/pages/115158caa9e96df0/' },
               { text: '组件', link: '/pages/83a1ab785e7fd70c/' },
-              { text: '过渡&动画', link: '/pages/184a96b493a97078/' },
+              { text: '过渡&动画', link: '/pages/185a96b593a97078/' },
               { text: '可复用性&组合', link: '/pages/bd36a3c1bc3e0821/' },
-              { text: '工具', link: '/pages/d00311f8175119b2/' },
+              { text: '工具', link: '/pages/d00311f8174119b2/' },
               { text: '规模化', link: '/pages/d9d62d6ab8ff99a6/' },
               { text: 'Vuex', link: '/pages/b30620/'},
               { text: '其它', link: '/pages/fb08e252dfd8fdfd/'}
@@ -62,7 +62,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '案例演示', link: '/pages/87156f/' },
             ]
           },
-          { text: 'JavaScript教程', link: '/pages/0796ba76b7b55368/' },
+          { text: 'JavaScript教程', link: '/pages/38a70e/'},
           { text: 'TypeScript 从零实现 axios', link: '/pages/e05dce83e5129785/' }
         ]
       },
@@ -74,7 +74,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: "Java", link: "/pages/83ac6e/" },
           { text: "Docker", link: "/pages/5d583a/" },
           { text: "Linux", link: "/pages/552a2f/" },
-          { text: "其他", link: "/pages/b8f905/" },
+          { text: "其它", link: "/pages/b8f905/" },
         ],
       },{
         text: '测试',
@@ -89,9 +89,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '其它',
         link: '/other/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          { text:'各种工具教程', link:'/pages/ad257c6332211551/'},
-          { text: 'Git学习', link: '/pages/9a7ee50fc232253e/' },
-          { text: '前端学习笔记', link: '/note/javascript/' },
+          { text:'各种工具教程', link:'/pages/a5f73af5185fdf0a/'},
+          { text: 'Git学习', link: '/pages/8292d8/' },
+          { text: '前端学习笔记', link: '/pages/51afd6/' },
           { text: '收藏', link: '/pages/beb6c0bd8a66cea6/'}
         ]
       },
@@ -163,7 +163,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       name: 'kamalyes',
     },
 
-    // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.kamalyes.com/pages/a20ce8/#social)
+    // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.yuyanqing.cn/pages/a20ce8/#social)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
       icons: [
