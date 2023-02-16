@@ -1,0 +1,69 @@
+name: Build and Deploy Docs
+
+# 在master分支发生push事件时触发。
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+
+env: # 设置环境变量
+  TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用该时区时间）
+
+jobs:
+  docs:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        # os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [12.x]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout # 步骤1
+        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
+      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+        uses: actions/setup-node@v1 # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
+      - name: Run Deploy.sh # 步骤3 （同时部署到github和coding）
+        env: # 设置环境变量
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量，如果变量名不一致请更改为自己设置的变量名
+        run: npm install && npm run deploy # 执行的命令
+        # package.json 中添加 "deploy": "bash deploy.sh"
+    # steps:
+    #   - uses: actions/checkout@v1
+
+    #   - name: Use Node.js ${{ matrix.node-version }}
+    #     uses: actions/setup-node@v1
+    #     with:
+    #       node-version: ${{ matrix.node-version }}
+
+    #   - name: Cache dependencies
+    #     uses: actions/cache@v2
+    #     id: yarn-cache
+    #     with:
+    #       path: |
+    #         **/node_modules
+    #       key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+    #       restore-keys: |
+    #         ${{ runner.os }}-yarn-
+    #   - name: Install dependencies
+    #     if: steps.yarn-cache.outputs.cache-hit != 'true'
+    #     run: yarn --frozen-lockfile
+
+    #   - name: Docs build
+    #     run: yarn docs:build
+
+    #   - name: Deploy to GitHub Pages
+    #     uses: crazy-max/ghaction-github-pages@v2.2.0
+    #     with:
+    #       repo: kamalyes/kamalyes.github.io
+    #       target_branch: master
+    #       build_dir: docs/.vuepress/dist
+    #     env:
+    #       GH_PAT: ${{ secrets.ACCESS_TOKEN }}
