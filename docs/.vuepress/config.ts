@@ -74,6 +74,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: "Java", link: "/pages/83ac6e/" },
           { text: "Docker", link: "/pages/5d583a/" },
           { text: "Linux", link: "/pages/552a2f/" },
+          { text: "MySql", link: "/pages/c56698/" },
           { text: "其它", link: "/pages/b8f905/" },
         ],
       },{
@@ -82,7 +83,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '测试流程规范', link: '/pages/d8ce1c/' },
           { text: '自动化测试', link: '/pages/eec3de/' },
-          { text: '性能测试', link: '/pages/21705d/'},
+          { text: '性能测试',
+            items: [
+            { text: '高级技巧', link: '/pages/21705d/' },
+            { text: 'Jmeter基础资料', link: '/pages/48598c/' },
+          ]},
           { text: '测试环境搭建', link: '/pages/e07672/'}
         ]
       }, {
