@@ -5,7 +5,7 @@
 git clone git@github.com:kamalyes/kamalyes.github.io.git
 
 # enter the project directory
-cd vuepress_blogs
+cd kamalyes.github.io
 
 # install dependency
 npm install # or yarn install
