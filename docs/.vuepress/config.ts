@@ -86,7 +86,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '性能测试',
             items: [
             { text: '高级技巧', link: '/pages/21705d/' },
-            { text: 'Jmeter基础资料', link: '/pages/48598c/' },
+            { text: 'Jmeter', link: '/pages/48598c/' },
           ]},
           { text: '测试环境搭建', link: '/pages/e07672/'},
           { text: 'Jenkins', link: '/pages/1177078e0af7f0bd9'}
