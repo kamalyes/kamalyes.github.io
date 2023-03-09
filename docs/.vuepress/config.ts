@@ -65,33 +65,43 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'JavaScript教程', link: '/pages/38a70e/'},
           { text: 'TypeScript 从零实现 axios', link: '/pages/e05dce83e5129785/' }
         ]
-      },
-      {
+      },{
         text: "后端",
         link: "/backend/",
         items: [
+          { text: "JavaSE", link: "/pages/69d2f8/" },
+          { text: "JavaEE", link: "/pages/ca58e7/" },
+          { text: "Spring&SpringBoot", link: "/pages/a1a3d3/"},
+          { text: "DataBase", link: "/pages/012588/" },
+          { text: "Java中间件", link: "/pages/3cbcff/" },
+          { text: "JavaDevApp", link: "/pages/dab057/" },
+          { text: "Java工具", link: "/pages/4b6820/" },
           { text: "CentOS", link: "/pages/3cce56/" },
-          { text: "Java", link: "/pages/83ac6e/" },
           { text: "Docker", link: "/pages/5d583a/" },
           { text: "Linux", link: "/pages/552a2f/" },
-          { text: "MySql", link: "/pages/c56698/" },
-          { text: "其它", link: "/pages/b8f905/" },
+          { text: "其它", link: "/pages/b8f905/" }
         ],
       },{
-        text: '测试',
-        link: '/testing/',
+        text: "大数据",
+        link: "/bigdata/",
         items: [
-          { text: '测试流程规范', link: '/pages/d8ce1c/' },
-          { text: '自动化测试', link: '/pages/eec3de/' },
-          { text: '性能测试',
-            items: [
-            { text: '高级技巧', link: '/pages/21705d/' },
-            { text: 'Jmeter', link: '/pages/48598c/' },
-          ]},
-          { text: '测试环境搭建', link: '/pages/e07672/'},
-          { text: 'Jenkins', link: '/pages/1177078e0af7f0bd9'}
+          { text: "大数据综合", link: "/pages/ad9b6a/" },
+          { text: "hadoop", link: "/pages/680e30/" },
+          { text: "hive", link: "/pages/a958fe/" },
+          { text: "hbase", link: "/pages/417be6/" },
+          { text: "zookeeper", link: "/pages/1b41b6/" },
+          { text: "flink", link: "/pages/5c85bd/" },
+        ],
+      },{
+        text: '数据结构和算法',
+        link: '/arithmetic/',
+        items: [
+          { text: '树', link: '/pages/92e4c1/' },
+          { text: '线性表', link: '/pages/5a9bff/' },
+          { text: '综合', link: '/pages/8b1bd0/'},
+          { text: '其它', link: '/pages/39a1b7/'}
         ]
-      }, {
+      },{
         text: '其它',
         link: '/other/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
@@ -100,8 +110,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '前端学习笔记', link: '/pages/51afd6/' },
           { text: '收藏', link: '/pages/beb6c0bd8a66cea6/'}
         ]
-      },
-      {
+      },{
         text: '索引',
         link: '/archives',
         items: [
@@ -111,13 +120,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       }
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 2, // 侧边栏显示深度，默认1
     logo: '/img/logo.png', // 导航栏logo
     repo: 'kamalyes/kamalyes.github.io.git', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
-    // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
+    // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是啥则修改为sha
     editLinks: true, // 启用编辑
     editLinkText: '编辑',
 

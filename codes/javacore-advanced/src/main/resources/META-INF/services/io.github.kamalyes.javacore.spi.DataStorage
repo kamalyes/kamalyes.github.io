@@ -1,0 +1,2 @@
+io.github.kamalyes.javacore.spi.MysqlStorage
+io.github.kamalyes.javacore.spi.RedisStorage

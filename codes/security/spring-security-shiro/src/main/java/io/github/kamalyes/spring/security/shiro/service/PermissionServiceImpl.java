@@ -1,0 +1,32 @@
+package io.github.kamalyes.spring.security.shiro.service;
+
+import io.github.kamalyes.spring.security.shiro.dao.PermissionDao;
+import io.github.kamalyes.spring.security.shiro.entity.Permission;
+
+/**
+ * <p>
+ * User: Zhang Kaitao
+ * <p>
+ * Date: 14-1-28
+ * <p>
+ * Version: 1.0
+ */
+public class PermissionServiceImpl implements PermissionService {
+
+    private PermissionDao permissionDao;
+
+    @Override
+    public Permission createPermission(Permission permission) {
+        return permissionDao.createPermission(permission);
+    }
+
+    @Override
+    public void deletePermission(Long permissionId) {
+        permissionDao.deletePermission(permissionId);
+    }
+
+    public void setPermissionDao(PermissionDao permissionDao) {
+        this.permissionDao = permissionDao;
+    }
+
+}
