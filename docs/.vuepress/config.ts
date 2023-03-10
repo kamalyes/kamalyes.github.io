@@ -82,6 +82,21 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: "其它", link: "/pages/b8f905/" }
         ],
       },{
+        text: '测试',
+        link: '/testing/',
+        items: [
+          { text: '测试流程规范', link: '/pages/d8ce1c/' },
+          { text: '自动化测试', link: '/pages/eec3de/' },
+          { text: '测试环境搭建', link: '/pages/e07672/'},
+          { text: '性能测试',
+            items: [
+              { text: '高级技巧', link: '/pages/21705d/' },
+              { text: 'Jmeter', link: '/pages/48598c/' },
+          ]},
+          { text: 'Fiddler', link: '/pages/971225/'},
+          { text: 'Jenkins', link: '/pages/1177078e0af7f0bd9'}
+        ]
+      },{
         text: "大数据",
         link: "/bigdata/",
         items: [
@@ -131,13 +146,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     editLinkText: '编辑',
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
-
     // category: false, // 是否打开分类功能，默认true
     // tag: false, // 是否打开标签功能，默认true
     // archive: false, // 是否打开归档功能，默认true
-
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
-
     // bodyBgImg: [
     //   'https://fastly.jsdelivr.net/gh/kamalyes/image_store/blog/20200507175828.jpeg',
     //   'https://fastly.jsdelivr.net/gh/kamalyes/image_store/blog/20200507175845.jpeg',
