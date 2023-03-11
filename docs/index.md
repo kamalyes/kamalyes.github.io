@@ -28,7 +28,7 @@ features:
   - title: 架构设计
     details: 架构设计
     link: /arc_design/
-    imgUrl: /img/big_data.png
+    imgUrl: /img/arc_design.png
   - title: 数据结构和算法
     details: 数据结构和算法
     link: /arithmetic/
