@@ -20,7 +20,7 @@ author:
 >
 > **重构的目的是为了提高代码的质量和性能**。
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20210430112157.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20210430112157.png)
 
 ## 📖 内容
 

@@ -63,7 +63,7 @@ author:
 
 ### Mysql
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200716103611.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716103611.png)
 
 - [Mysql 应用指南](03.关系型数据库/02.Mysql/01.Mysql应用指南.md) ⚡
 - [Mysql 工作流](03.关系型数据库/02.Mysql/02.MySQL工作流.md) - 关键词：`连接`、`缓存`、`语法分析`、`优化`、`执行引擎`、`redo log`、`bin log`、`两阶段提交`
@@ -106,7 +106,7 @@ author:
 
 ### Redis
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200713105627.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200713105627.png)
 
 - [Redis 面试总结](05.KV数据库/01.Redis/01.Redis面试总结.md) 💯
 - [Redis 应用指南](05.KV数据库/01.Redis/02.Redis应用指南.md) ⚡ - 关键词：`内存淘汰`、`事件`、`事务`、`管道`、`发布与订阅`

@@ -23,11 +23,11 @@ author:
 
 ### [SQL Cheat Sheet](02.SqlCheatSheet.md)
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200115160512.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200115160512.png)
 
 ### [分库分表基本原理](https://yuyanqing.cn/pages/e1046e/)
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200716110854.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716110854.png)
 
 ### [分布式事务基本原理](https://yuyanqing.cn/pages/e1881c/)
 

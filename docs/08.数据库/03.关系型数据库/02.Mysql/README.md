@@ -18,7 +18,7 @@ author:
 
 # Mysql 教程
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200716103611.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716103611.png)
 
 ## 📖 内容
 
@@ -30,19 +30,19 @@ author:
 
 > 关键词：`ACID`、`AUTOCOMMIT`、`事务隔离级别`、`死锁`、`分布式事务`
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200716074533.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716074533.png)
 
 ### [Mysql 锁](04.Mysql锁.md)
 
 > 关键词：`乐观锁`、`表级锁`、`行级锁`、`意向锁`、`MVCC`、`Next-key 锁`
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200716064947.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716064947.png)
 
 ### [Mysql 索引](05.Mysql索引.md)
 
 > 关键词：`Hash`、`B 树`、`聚簇索引`、`回表`
 
-![img](https://raw.githubusercontent.com/kamalyes/image-bed/master/snap/20200715172009.png)
+![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200715172009.png)
 
 ### [Mysql 性能优化](06.Mysql性能优化.md)
 
