@@ -90,11 +90,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '测试环境搭建', link: '/pages/e07672/'},
           { text: '性能测试',
             items: [
-              { text: '高级技巧', link: '/pages/21705d/' },
-              { text: 'Jmeter', link: '/pages/48598c/' },
+              { text: 'Jmeter基础篇', link: '/pages/48598c/' },
+              { text: 'Jmeter高级篇', link: '/pages/21705d/' },
           ]},
-          { text: 'Fiddler', link: '/pages/971225/'},
-          { text: 'Jenkins', link: '/pages/1177078e0af7f0bd9'}
+          { text: 'Fiddler', link: '/pages/971225/'}
         ]
       },{
         text: "大数据",
@@ -203,11 +202,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           iconClass: 'icon-github',
           title: 'GitHub',
           link: 'https://github.com/kamalyes',
-        },
-        {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
         },
       ],
     },
