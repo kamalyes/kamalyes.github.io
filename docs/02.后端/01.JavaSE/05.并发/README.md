@@ -28,15 +28,15 @@ author:
 
 > **关键词：`进程`、`线程`、`安全性`、`活跃性`、`性能`、`死锁`、`饥饿`、`上下文切换`**
 
-![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200701113445.png)
+![img](https://www.yuyanqing.cn/oss/image-bed/snap/20200701113445.png)
 
 ### [Java 线程基础](02.Java线程基础.md)
 
 > **关键词：`Thread`、`Runnable`、`Callable`、`Future`、`wait`、`notify`、`notifyAll`、`join`、`sleep`、`yeild`、`线程状态`、`线程通信`**
 
-![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200630221707.png)
+![img](https://www.yuyanqing.cn/oss/image-bed/snap/20200630221707.png)
 
-![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/col/java/javacore/concurrent/java-thread_1.png)
+![img](https://www.yuyanqing.cn/oss/image-bed/col/java/javacore/concurrent/java-thread_1.png)
 
 ### [Java 并发核心机制](03.Java并发核心机制.md)
 

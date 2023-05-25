@@ -14,7 +14,7 @@ author:
 ---
 ## 📖 内容
 
-![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200702071922.png)
+![img](https://www.yuyanqing.cn/oss/image-bed/snap/20200702071922.png)
 
 - 综合
 - [数据结构和算法指南](01.数据结构和算法/00.综合/01.数据结构和算法指南.md)

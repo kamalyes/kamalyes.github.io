@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url("https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/common/wallpaper/wallhaven-4lwj9l.jpg");
+  background-image: url("https://www.yuyanqing.cn/oss/image-bed/common/wallpaper/wallhaven-4lwj9l.jpg");
   transition: All 2s ease;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -198,7 +198,7 @@ body.one-column #content #alpha {
 }
 
 #img_placer span {
-  background-image: url(https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/common/wallpaper/wallhaven-4lwj9l.jpg);
+  background-image: url(https://www.yuyanqing.cn/oss/image-bed/common/wallpaper/wallhaven-4lwj9l.jpg);
   width: 0;
   height: 0;
   display: inline;

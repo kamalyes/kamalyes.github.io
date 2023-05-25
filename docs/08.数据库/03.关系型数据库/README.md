@@ -26,7 +26,7 @@ author:
 
 ### Mysql
 
-![img](https://cdn.jsdelivr.net/gh/kamalyes/image-bed@master/snap/20200716103611.png)
+![img](https://www.yuyanqing.cn/oss/image-bed/snap/20200716103611.png)
 
 - [Mysql 应用指南](02.Mysql/01.Mysql应用指南.md) ⚡
 - [Mysql 工作流](02.Mysql/02.MySQL工作流.md) - 关键词：`连接`、`缓存`、`语法分析`、`优化`、`执行引擎`、`redo log`、`bin log`、`两阶段提交`
