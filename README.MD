@@ -11,5 +11,5 @@ cd kamalyes.github.io
 npm install # or yarn install
 
 # develop
-npm run dev # or yarn dev
+npm run docs:dev # or yarn docs:dev
 ```
