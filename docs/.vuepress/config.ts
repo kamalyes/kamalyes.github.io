@@ -14,11 +14,10 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "kamalyes blog",
+      title: "学习巴",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -210,7 +209,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2023, // 博客创建年份
       copyrightInfo:
-        'kamalyes | <a href="https://github.com/kamalyes/kamalyes.github.io.git/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+        'kamalyes | <a href="http://beian.miit.gov.cn/" target="_blank">© ICP备案/许可证号:粤ICP备2023052306号</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
